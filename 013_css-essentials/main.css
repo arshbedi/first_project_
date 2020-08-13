@@ -1,0 +1,19 @@
+img {
+
+    width: 100px;
+    height: 100px;
+    border: 10px solid crimson;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 10px solid darkmagenta;
+    background-image: url("../01_hands_on_exercise/puppy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+}
