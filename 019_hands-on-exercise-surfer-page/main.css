@@ -1,0 +1,26 @@
+html{
+    background-color: blue;
+}
+
+body{
+    padding: 10px;
+    height: 660px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: forestgreen;
+    border: 6px solid black;
+}
+
+img{
+    border-radius: 50%;
+    border: 15px groove orange;
+    margin: 10px auto;
+    display: block;
+}
+h1{
+    color: darkblue;
+}
+
+#yo{
+    color: darkred;
+}
