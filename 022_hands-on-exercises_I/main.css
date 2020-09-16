@@ -1,0 +1,35 @@
+#yo{
+    color: red;
+}
+
+.a{
+    color: crimson;
+}
+
+a[target="_blank"]{
+    border: 5px solid hotpink;
+}
+
+p:first-line{
+    color: darkblue;
+}
+
+p:first-letter{
+    color: orangered;
+}
+
+body>a:link{
+    color: blue;
+}
+
+body>a:visited{
+    color: darkmagenta;
+}
+
+body>a:hover{
+    color: green;
+}
+
+body>a:active{
+    color: orange;
+}

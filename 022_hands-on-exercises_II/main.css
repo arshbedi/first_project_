@@ -1,0 +1,16 @@
+/*all children of div*/
+div p{
+    color: red;
+}
+
+/*div>p immediate children of div*/
+
+/*siblings following a div*/
+div~p{
+    color: green;
+}
+
+/*immediate sibling following a div*/
+div+p{
+    color: blue;
+}
