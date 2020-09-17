@@ -5,7 +5,7 @@
 .a{
     color: crimson;
 }
-
+/*Can also do just [target]*/
 a[target="_blank"]{
     border: 5px solid hotpink;
 }

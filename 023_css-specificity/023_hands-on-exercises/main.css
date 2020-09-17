@@ -1,0 +1,21 @@
+body h1.a{
+    background-color: pink;
+}
+
+#yo{
+    background-color: orange;
+}
+
+[id]{
+    background-color: #76a3f5;
+}
+
+.b{
+    color: darkmagenta;
+}
+
+
+/*now the font will be darkmagenta and the background color will be light blue for h6*/
+
+/*both the attribute and class selector run but id one will overwrite the same properties*/
+/*here we had different properties*/
