@@ -1,0 +1,39 @@
+body{
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#zero{
+    text-indent: 2rem;
+}
+
+#one{
+    /*color: #76a3f5;*/
+    font-weight: 400;
+    text-decoration: line-through crimson;
+}
+
+#two{
+    font-weight: 700;
+}
+
+#three{
+    font-weight: 900;
+    word-spacing: 5px;
+}
+
+h1{
+    text-shadow: 2px 2px 0 orange;
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: orangered;
+    text-decoration: underline;
+}

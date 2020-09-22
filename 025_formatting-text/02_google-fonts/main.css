@@ -1,5 +1,7 @@
 h1{
-    font-family: "Helvetica Neue", helvetica, sans-serif;
+    font-family: "Architects Daughter", cursive;
+    /*font-family: "Permanent Marker", cursive;*/
+    /*font-family: 'Ubuntu';*/
     font-size: 10vw;
     font-style: italic;
     font-variant: small-caps ;
@@ -7,6 +9,8 @@ h1{
 }
 
 p{
+    font-family: "Permanent Marker", cursive;
+    /*font-family: 'Ubuntu',"Helvetica Neue", helvetica, sans-serif;*/
     line-height: 2 ;
     text-align: center;
     text-transform: capitalize;
