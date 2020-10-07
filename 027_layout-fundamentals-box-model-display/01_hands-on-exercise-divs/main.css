@@ -1,0 +1,32 @@
+div{
+    border: 5px solid black;
+    border-radius: 10%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+div:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+div:nth-child(5n+1){
+    background-color: crimson;
+}
+
+div:nth-child(5n+2){
+    background-color: royalblue;
+}
+
+div:nth-child(5n+3){
+    background-color: yellow;
+}
+
+div:nth-child(5n+4){
+    background-color: limegreen;
+}
+
+div:nth-child(5n+5){
+    background-color: blueviolet;
+}

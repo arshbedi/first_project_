@@ -19,7 +19,7 @@ div{
     border: 10px dashed pink;
     display: inline-block;
 /*    the inline type does not respect the width and height*/
-/*    inline block makes div gp inline while retaining its mentioned height and width*/
+/*    inline block makes div go inline while retaining its mentioned height and width*/
     box-sizing: border-box;
 }
 

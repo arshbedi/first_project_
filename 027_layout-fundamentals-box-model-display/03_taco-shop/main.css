@@ -1,0 +1,32 @@
+html{
+    border: 5px solid green;
+}
+body{
+    margin: 0 auto;
+    width: 80%;
+    /*here can use vw or % interchangeably as same */
+    border: 2px solid black;
+}
+
+/* % - relative to the parent element */
+/* vw - relative to the viewport ie. the browser size*/
+
+aside, main{
+    border: 5px groove crimson;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+aside{
+    width: 25%;
+    vertical-align: top;
+}
+main{
+    width: 75%;
+    padding: 10px;
+}
+
+ul{
+    list-style: square outside;
+}
+
