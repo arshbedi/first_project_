@@ -1,0 +1,26 @@
+body{
+    border: 2px groove orangered;
+    height: 600px;
+    /*width: 200px;*/
+}
+
+header{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  /* row default*/
+    border: 2px solid royalblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div{
+    width: 100px;
+    border: 2px solid black;
+    /*height: 100px;*/
+    background-color: #76a3f5;
+    text-align: center;  /*to centre text horizontally*/
+    line-height: 100px;  /*to centre text vertically*/
+    /*margin: 0 auto;*/
+    border-radius: 20%;
+}

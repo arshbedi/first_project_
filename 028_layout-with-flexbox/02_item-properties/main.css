@@ -1,0 +1,29 @@
+body{
+    height: 600px;
+    border: 2px solid blue;
+}
+
+header{
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+}
+
+div{
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    background-color: #76a3f5;
+    text-align: center;
+    /*line-height: 100px;*/
+    border-radius: 20%;
+}
+
+.start{
+    align-self: flex-end;
+    line-height: 100px;
+}
+
+.baseline{
+    align-self: baseline;
+}
