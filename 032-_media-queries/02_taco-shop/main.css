@@ -1,0 +1,39 @@
+body, header, ul, li, main, section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    border: 2px solid red;
+    flex-flow: row wrap;
+}
+
+header{
+    border: 2px solid blue;
+    width: 100%;
+
+}
+
+main{
+    margin: 15px auto;
+    border: 2px solid yellow;
+    width: 100%;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
