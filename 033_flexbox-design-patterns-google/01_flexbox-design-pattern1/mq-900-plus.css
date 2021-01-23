@@ -1,0 +1,15 @@
+body{
+    width: 80%;
+}
+
+.a{
+    width: 57%;
+}
+
+.b{
+    width: 43%
+}
+
+.c, .d, .e{
+    width: 33.33%
+}
