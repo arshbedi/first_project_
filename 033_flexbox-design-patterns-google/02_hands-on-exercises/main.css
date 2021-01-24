@@ -10,4 +10,5 @@ div{
     height: 150px;
     border: 3px solid darkslateblue;
     box-sizing: border-box;
+    order: 1;
 }
