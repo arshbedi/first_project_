@@ -1,0 +1,20 @@
+.a{
+    width: 60%;
+}
+
+.b{
+    width: 40%;
+}
+
+.c{
+    width:20%
+}
+
+.d{
+    width: 20%;
+    order: 1;
+}
+
+.e{
+    width: 60%;
+}
