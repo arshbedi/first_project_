@@ -1,0 +1,21 @@
+.c, .d{
+    width: 20%;
+}
+
+
+.c{
+    order: 1;
+}
+
+.b{
+    order: 2;
+    width: 60%;
+}
+
+.d{
+    order: 3;
+}
+
+.e{
+    order: 4;
+}

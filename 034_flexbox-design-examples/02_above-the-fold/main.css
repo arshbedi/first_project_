@@ -1,0 +1,20 @@
+html, body, div, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    flex-flow: row wrap;
+    /*vh to set the main viewing area as equal to the browser size*/
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 5px groove crimson;
+    background-image: url("https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
