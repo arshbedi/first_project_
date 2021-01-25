@@ -1,0 +1,16 @@
+ul{
+    /*ul is block level so blocks off a whole line with blue background*/
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    /*border: 2px solid black;*/
+    /*align-items: flex-start;*/
+}
+
+li{
+    /*border: 2px solid red;*/
+}
+
+a{
+    padding: 20px 10px;
+
+}
