@@ -1,5 +1,52 @@
-div{
-    width: 100px;
-    height: 100px;
+body{
+    width: 80%;
+    border: 5px solid black;
+    /*margin: 0 auto;*/
+    /*position: absolute;*/
 }
 
+div{
+    width: 100px;
+    height: 200px;
+    border: 5px dashed rebeccapurple;
+    background-color: yellow;
+}
+
+/*.a is fixed, ie 2nd. now even if body is reduced it will still not move*/
+.a{
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    height: 50px;
+    width: 50px;
+    background-color: #76a3f5;
+}
+
+/*b,c divs for relative position layout*/
+/*relative to itself, always blocks its actual space and moves around relative to it*/
+/*relative with no trbl specified is basically normal static only*/
+.b, .c{
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+}
+
+.c{
+    position: relative;
+    top: 20px;
+    right: -40px;
+}
+
+#yo{
+    position: absolute;
+    /*it will be moved w.r.t. the next upper dom which has the position property*/
+    /*if no other element has pos property, it will position acc to html*/
+    /*here itll position acc to .c boundary as it is above it */
+    top: 40px;
+    right: 70px;
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border: 2px groove darkslateblue;
+    box-sizing: border-box;
+}
