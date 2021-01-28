@@ -1,0 +1,34 @@
+body, nav, section, article, ul{
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    border: 0;*/
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    top: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 3px solid orangered;
+}
+
+
+article{
+    border: 2px solid greenyellow;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    width: 150px;
+    border: 3px solid rebeccapurple;
+}
+
+section{
+    /*if instead of margin-left 150px, we use position absolute, left:150px, then the body collapses as: both the items in the body are now absolute, ie. out of the normal document flow, and now the body doesnt hold anything and it collapses*/
+    /*check body border*/
+    margin-left: 150px;
+    border: 3px solid rebeccapurple;
+    padding: 10px;
+}
