@@ -1,0 +1,27 @@
+/*body, nav, section, article, ul{*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    border: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+body{
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 3px solid orangered;
+}
+
+nav, section{
+    border: 3px solid rebeccapurple;
+}
+
+nav{
+    position: absolute;
+    top: 20px;
+    width: 150px;
+}
+
+section{
+    margin-left: 150px;
+}
