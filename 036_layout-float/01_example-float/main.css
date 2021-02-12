@@ -1,3 +1,19 @@
 div{
-    
+    border: 3px solid crimson;
+    margin: 5px;
+    overflow: auto;  /* put this property in container */
+}
+
+.b{
+    float: top;
+}
+.a{
+    width: 100px;
+    height: 100px;
+    border: 3px solid mediumslateblue;
+    float: right;
+}
+
+img{
+    float: left;
 }
