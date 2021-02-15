@@ -1,0 +1,32 @@
+html, body, header, nav, main, footer{
+    padding: 0;
+    border: 0;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    background-color: #76a3f5;
+    /*border: 3px solid darkslateblue;*/
+}
+
+nav{
+    width: 24%;
+    height: 100px;
+    background-color: hotpink;
+    float: left;
+}
+
+main{
+    width: 74%;
+    height: 100px;
+    background-color: aquamarine;
+    float: right;
+}
+
+footer{
+    height: 50px;
+    background-color: orange;
+    clear: both;
+}
