@@ -1,0 +1,38 @@
+body{
+    /*after resetting it, the scroll bar goes away //as we wanted 'hello' to
+     be exactly in the centre of the page*/
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    formatting*/
+    background-color: crimson;
+    height: 100vh;
+    /*border: 2px solid black;*/
+    background-image: url("https://vignette.wikia.nocookie.net/cartoonica/images/c/cb/SpongeBob_promo_art.png/revision/latest?cb=20190206015717");
+    background-repeat: repeat-x;
+    /*background-repeat: repeat-y;*/
+    background-size: 20%;
+    /*percentage will change img size acc to the size of window*/
+}
+
+h1{
+    font-weight: bold;
+    color: #76a3f5;
+    font-size: 100px;
+}
+
+
+/*we can set background-size as : contain*/
+/*                              : cover*/
+/*contain will put whole image in the container*/
+/*cover will try to fill all the size difference btw the img and container, */
+/*even if the img is cut*/
+
+/*body will collapse if just image is in it*/
