@@ -23,27 +23,46 @@ body,section,div,h1,h2,h3,button{
 
 .idx-atf{
     /*layout*/
+    height: 80vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: space-between;
+    /*align-content: center;*/
     /*formatting*/
     color: whitesmoke;
     text-shadow: 1px 1px 1px #211364;
 }
 
+
+/*no need of below centre code*/
+.centre{
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
 h1{
     font-size: 2rem;
     font-weight: normal;
-    margin: 15px;
+    /*margin: 15px;*/
+    text-align: center;
 }
 
 h2,h3{
     margin: 2px;
     font-size: 1rem;
     /*font-weight: normal;*/
+    text-align: center;
 }
 
 button{
-    margin-top: 5px;
+    margin-top: 10px;
     /*font-family: 'Cantarell', sans-serif;*/
+    background-color: transparent;
+    color: inherit;    /* inherit the color property of the parent */
+    border: 2px solid whitesmoke;
+    padding: 3px 10px;   /* tb rl , trbl */
 }
+
