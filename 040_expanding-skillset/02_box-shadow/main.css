@@ -19,10 +19,11 @@ div{
     width: 20%;
     border: 4px solid crimson;
     background-color: #76a3f5;
+    box-shadow: 10px 10px 10px 2px darkslateblue;
 }
 
 p{
-    margin: 10px;
+    margin: 20px;
     border: 2px solid darkslateblue;
 }
 
