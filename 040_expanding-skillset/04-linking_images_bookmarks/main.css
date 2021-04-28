@@ -1,8 +1,15 @@
-*{
+*, body{
     margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    /*background-image: url("https://image.freepik.com/free-vector/watercolor-starry-night-background_23-2148121679.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background-color: #88b3ff;
 }
 
 h2{
@@ -27,6 +34,19 @@ a{
     /*border: 2px solid;*/
 }
 
-a:hover{
+a:hover,h2{
     background-color: darkslateblue;
+}
+
+h2{
+    /*background-color: #211364;*/
+    width: 100%;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.yo{
+    margin-top: 40px;
+    /*border: 2px solid;*/
+    /*padding: 20px;*/
 }
