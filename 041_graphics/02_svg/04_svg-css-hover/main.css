@@ -1,0 +1,10 @@
+svg{
+    border: 5px solid #211364;
+}
+
+
+.a:hover{
+    fill: crimson;
+    stroke: lime;
+    stroke-width: 0.2mm;
+}
