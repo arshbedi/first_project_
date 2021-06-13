@@ -1,0 +1,84 @@
+body,header, section, div, h1,h2,button{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cantarell', sans-serif;
+}
+
+
+header{
+    height: 40px;
+    width: 100% ;
+    /*padding: 8px;*/
+    background-color: rgba(5, 5, 5, 0.5);
+    /*border: 3px solid lime;*/
+    position: fixed;
+    /*element taken out of the normal doc flow,
+    no space is given to it and it will be stacked above*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos{
+    height: 80%;
+    width: 100px;
+    margin: 0 4px;
+    background-color: lime;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    /*setting background*/
+    background-image: url("https://wallpapercave.com/wp/wp6705749.jpg");
+    /*background: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wEaL?ver=a12d");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+div.a{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 20px;
+    text-shadow: 1px 2px 2px black;
+}
+
+#idk{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: white;
+    margin: 15px;
+    text-align: center;
+}
+
+h2{
+    margin: 2px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+    /*font-family: 'Cantarell', sans-serif;*/
+    background-color: transparent;
+    color: white;    /* inherit: inherit the color property of the parent */
+    border: 2px solid whitesmoke;
+    padding: 6px 10px;   /* tb rl , trbl */
+}
+
