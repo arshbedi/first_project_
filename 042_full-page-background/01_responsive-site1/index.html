@@ -10,6 +10,10 @@
 </head>
 <body>
 
+<!--1.svg should always be made in 100px 100px size sheet to get automatic viewbox od 0 0 100 100-->
+<!--2.take particular svg file from direct folder of svg installed in this project and paste it in new inkscape file (which should have 1st point)-->
+<!--then use the svg like used below-->
+
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="universal-access" viewBox="0 0 100 100">
         <path d="M50,89.9c-21.6,0-39.1-17.5-39.1-39.1S28.4,11.8,50,11.8c21.6,0,39.1,17.5,39.1,39.1S71.6,89.9,50,89.9z M16.5,50.9
@@ -51,14 +55,22 @@
 		c0,6.2,5,11.2,11.2,11.2c6.2,0,11.2-5,11.2-11.2C61.2,44.7,56.2,39.7,50,39.7z"></path>
     </symbol>
     <symbol id="home1" viewBox="0 0 576 512">
-        <path d="m285 148-170 142v153a15 15 0 0 0 15 15l104-0.3a15 15 0 0 0 15-15v-90a15 15 0 0 1 15-15h59a15 15 0 0 1 15 15v89a15 15 0 0 0 15 15l104 0.3a15 15 0 0 0 15-15v-153l-170-142a11 11 0 0 0-14 0zm269 97-77-64v-130a11 11 0 0 0-11-11h-52a11 11 0 0 0-11 11v68l-83-69a44 45 0 0 0-56 0l-234 195a11 11 0 0 0-1 16l24 29a11 11 0 0 0 16 2l217-181a11 11 0 0 1 14 0l217 181a11 11 0 0 0 16-1l24-29a11 11 0 0 0-2-16z" stroke-width=".9"/> </symbol>
+        <path d="m285 148-170 142v153a15 15 0 0 0 15 15l104-0.3a15 15 0 0 0 15-15v-90a15 15 0 0 1 15-15h59a15 15 0 0 1 15 15v89a15 15 0 0 0 15 15l104 0.3a15 15 0 0 0 15-15v-153l-170-142a11 11 0 0 0-14 0zm269 97-77-64v-130a11 11 0 0 0-11-11h-52a11 11 0 0 0-11 11v68l-83-69a44 45 0 0 0-56 0l-234 195a11 11 0 0 0-1 16l24 29a11 11 0 0 0 16 2l217-181a11 11 0 0 1 14 0l217 181a11 11 0 0 0 16-1l24-29a11 11 0 0 0-2-16z" stroke-width=".9"/> </symbol>  <!--wrong, dont use-->
+    <symbol id="basketball" viewBox="0 0 100 100">
+        <path d="m70 66 5-2c2 4 4 7 7 10 5-7 9-16 9-25-0.01-10-3-18-9-25-3 3-5 6-7 10l-5-2c2-4 5-8 8-11-7-7-17-11-28-11-11 0.01-21 4-28 11 3 3 6 7 8 11l-5 2c-2-4-4-7-7-10-5 7-9 16-9 25 0.01 10 3 18 9 25 3-3 5-6 7-10l5 2c-2 4-5 8-8 12 7 7 17 11 28 11 11-0.01 21-4 28-11-3-3-6-7-8-12zm-37-5-5-2c2-8 2-15-0.1-22l5-2c2 7 3 16 0.1 25zm35-25 5 2c-2 7-2 14-0.07 22l-5 2c-3-9-2-18 0.08-25z" stroke-width=".2"/>
+    </symbol>
 </svg>
 
 <header>
     <div class="logos">
         <svg><use xlink:href="#universal-access"></use></svg>
+        <svg><use xlink:href="#basketball"></use></svg>
     </div>
     <nav class="logos">
+        <svg><use xlink:href="#home"></use></svg>
+        <svg><use xlink:href="#briefcase"></use></svg>
+        <svg><use xlink:href="#pencil"></use></svg>
+        <svg><use xlink:href="#gear"></use></svg>
     </nav>
 </header>
 
