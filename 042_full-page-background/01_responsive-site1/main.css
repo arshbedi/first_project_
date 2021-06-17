@@ -1,15 +1,15 @@
-body,header, section, div, nav, h1,h2,button{
+body,header, section, div, nav, h1,h2,button,a{
     padding: 0;
     border: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Cantarell', sans-serif;
+    color: white;
 }
 
 
-
 header{
-    height: 40px;
+    height: 50px;
     width: 100% ;
     /*padding: 8px;*/
     background-color: rgba(5, 5, 5, 0.5);
@@ -22,16 +22,80 @@ header{
     align-items: center;
 }
 
-header div, nav{
+/*formatting header contents*/
+header div, header nav{
     height: 80%;
-    width: 100px;
+    width: 300px;
     margin: 0 4px;
-    background-color: lime;
+    /*background-color: lime;*/
+    /*display: flex;   !*when this is done, svgs fit inside automatically*!*/
+    /*!*flex-flow: row nowrap;*!*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*border: 2px solid black;*/
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 2px solid hotpink;*/
+}
+
+.logos a{
+    height: 100%;
+    width: fit-content;
     display: flex;   /*when this is done, svgs fit inside automatically*/
     /*flex-flow: row nowrap;*/
+    justify-content: flex-start;
+    align-items: center;
+    /*border: 2px solid black;*/
+    text-decoration: none;
+}
+
+.logos a:hover{
+    color: #95b3fb;
+}
+
+header div a h1{
+    height: 100%;
+    margin: 0 4px;
+    font-size: 1.12rem;
+    display: flex; /*to centre the text vertically*/
+    align-items: center;
+    /*text-align: center;*/
+    /*line-height: 1.12rem;*/
+    /*border: 2px solid lime;*/
+}
+
+header div a h1:hover{
+    color: currentColor;
+}
+
+/*styling header svgs*/
+div svg, nav svg{
+    height: 100%;
+    width: 40px;
+    fill: currentColor;
+    stroke-width: 3px;
+    stroke: black;
+    border-radius: 4px;
+    padding: 0;
+    /*border: 2px solid mediumvioletred;*/
+}
+nav svg{
+    padding: 0 15px;
 }
 
 
+.logos svg:hover {
+    /*fill: currentColor;*/
+    background-color: #8294b9;
+    cursor: pointer;
+}
+
+
+/*main body styling below------------------*/
 section{
     height: 100vh;
     display: flex;
