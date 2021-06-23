@@ -7,6 +7,11 @@ body,header, section, div, nav, h1,h2,button,a{
     color: white;
 }
 
+/*done for mobile first*/
+svg{
+    display: none;
+}
+/*remove first*/
 
 header{
     height: 50px;
@@ -18,7 +23,8 @@ header{
     /*element taken out of the normal doc flow,
     no space is given to it and it will be stacked above*/
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/  /*uncomment this later//done for mobile first*/
+    justify-content: center;  /*done for mobile first, remove later*/
     align-items: center;
 }
 
@@ -32,7 +38,7 @@ header div, header nav{
     /*!*flex-flow: row nowrap;*!*/
     /*justify-content: flex-start;*/
     /*align-items: center;*/
-    /*border: 2px solid black;*/
+    border: 2px solid black;
 }
 
 header nav{
@@ -41,6 +47,12 @@ header nav{
     justify-content: space-between;
     /*border: 2px solid hotpink;*/
 }
+
+/*-----added for mobile first------*/
+header nav{
+    width: 0;
+}
+/*remove later*/
 
 .logos a{
     height: 100%;
@@ -69,7 +81,7 @@ header div a h1{
 }
 
 header div a h1:hover{
-    color: currentColor;
+    color: currentColor;  /*takes anchor hover color*/
 }
 
 /*styling header svgs*/
