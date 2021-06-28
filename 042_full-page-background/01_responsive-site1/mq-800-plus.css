@@ -1,3 +1,7 @@
+/*Please remember that this styling is for desktop, ie. 800 plus width*/
+/*main css is for styling mobile*/
+
+
 section{
     /*!*height: 80vh;*!  if we do this then background chhota ho jayega*/
     justify-content: center;
@@ -10,4 +14,14 @@ svg{
 
 header{
     justify-content: space-between;
+}
+
+header div{
+    display: block;
+    /*justify-content: center;*/
+    /*to center anchor/h1 in center in mobile first*/
+}
+
+header nav {
+    width: 300px;
 }

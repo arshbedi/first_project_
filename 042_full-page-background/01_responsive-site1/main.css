@@ -38,8 +38,16 @@ header div, header nav{
     /*!*flex-flow: row nowrap;*!*/
     /*justify-content: flex-start;*/
     /*align-items: center;*/
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
+
+/*-----added for mobile first------*/
+header div{
+    display: flex;
+    justify-content: center;
+    /*to center anchor/h1 in center in mobile first*/
+}
+/*remove later*/
 
 header nav{
     display: flex;
@@ -59,11 +67,12 @@ header nav{
     width: fit-content;
     display: flex;   /*when this is done, svgs fit inside automatically*/
     /*flex-flow: row nowrap;*/
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     /*border: 2px solid black;*/
     text-decoration: none;
 }
+
 
 .logos a:hover{
     color: #95b3fb;
@@ -112,7 +121,7 @@ section{
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /*setting background*/
     background-image: url("https://wallpapercave.com/wp/wp6705749.jpg");
