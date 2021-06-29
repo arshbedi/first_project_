@@ -8,7 +8,8 @@ body,header, section, div, nav, h1,h2,button,a{
 }
 
 /*done for mobile first*/
-svg{
+
+header svg{
     display: none;
 }
 /*remove first*/
@@ -62,7 +63,7 @@ header nav{
 }
 /*remove later*/
 
-.logos a{
+.logos a, .menu_on_mobile a{
     height: 100%;
     width: fit-content;
     display: flex;   /*when this is done, svgs fit inside automatically*/
@@ -117,7 +118,7 @@ nav svg{
 
 
 /*main body styling below------------------*/
-section{
+section.front{
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
@@ -171,3 +172,40 @@ button{
     padding: 6px 10px;   /* tb rl , trbl */
 }
 
+/*Menu on mobile*/
+
+.menu_on_mobile{
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+.b{
+    width: 100%;
+    height: 70px;
+    background-color: #88b3ff;
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    border-top: 2px solid rgba(255,255,255,0.3);
+}
+
+.b:hover{
+    background-color: #4d57b8;
+}
+
+/*the svg in menu section picking up styling from line 97 (div svg, nav svg)*/
+/*the anchor is picking up styling from above too*/
+
+.b a{
+    margin: 0 20px;
+}
+
+
+.b a h1{
+    margin: 0 8px;
+    font-size: 1.12rem;
+    text-shadow: 1px 1px 2px black;
+    /*border: 2px solid hotpink;*/
+}
