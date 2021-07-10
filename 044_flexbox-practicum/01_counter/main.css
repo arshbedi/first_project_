@@ -1,0 +1,59 @@
+html{
+    font-size: 3vw;
+}
+body, section, div{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 4.5rem;
+    width: 21rem;
+    display: flex;
+    /*flex-flow: row nowrap;*/
+    /*border: 2px solid red;*/
+}
+
+div{
+    /*width: 100px;*/
+    /*font-size: 20px;*/
+    border: 1px solid #4d57b8;
+    /*another way to center text except using flexbox again*/
+    text-align: center;
+    line-height: 4.5rem;
+    /*decorating text*/
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
+}
+
+.l{
+    flex-grow: 1;
+    border-radius: 30px 0 0 30px;
+}
+
+.r{
+    flex-grow: 1;
+    border-radius: 0 30px 30px 0;
+}
+.center{
+    flex-grow: 1.5;
+}
+
+.side{
+    background-color: #95b3fb;
+    cursor: pointer;
+}
+
+.side:hover{
+    background-color: hotpink;
+}
