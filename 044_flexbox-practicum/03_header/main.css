@@ -1,0 +1,86 @@
+body,header, section, div, nav, h1,h2,button,a,p,main,svg{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128,128,128,0.9);
+}
+
+nav{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    /*border: 2px solid #76a3f5;*/
+}
+.right{
+    padding-right: 30px;
+    justify-content: flex-end;
+}
+
+header div{
+    height: 80%;
+    width: 100px;
+    /*border: 3px solid yellow;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.a:hover, header .right div:hover{
+    color: black;
+    fill: black;
+    background-color: rgba(255,255,255,1);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+svg.hdr{
+    height: 60%;
+    width: 60%;
+    /*border: 2px solid red;*/
+    fill: currentColor;
+}
+
+
+
+/*Main section*/
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    /*border: 2px solid darkred;*/
+}
+.sc{
+    flex-grow: 1.5;
+    fill: hotpink;
+    /*border: 2px solid #4d57b8;*/
+}
+p{
+    flex-grow: 1;
+    font-weight: bolder;
+    font-size: 5rem;
+    color: darkgrey;
+    /*border: 2px solid green;*/
+}
