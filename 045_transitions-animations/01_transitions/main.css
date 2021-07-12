@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: 10px groove #4d57b8;
+    background-color: hotpink;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div:hover{
+    background-color: #95b3fb;
+}
+
+.trans:hover{
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
