@@ -5,6 +5,10 @@ body,header, section, div, nav, h1,h2,button,a{
     box-sizing: border-box;
     font-family: 'Cantarell', sans-serif;
     color: white;
+    /*transition property, added later*/
+    transition-property: all;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
 }
 
 /*done for mobile first*/
@@ -114,6 +118,10 @@ nav svg{
     /*fill: currentColor;*/
     background-color: #8294b9;
     cursor: pointer;
+    /*transition property, added later*/
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 
 
