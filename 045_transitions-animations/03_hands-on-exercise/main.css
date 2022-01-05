@@ -1,0 +1,29 @@
+body, header, section, p, div, nav, h1, h2, button, a, svg{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-weight: bolder;
+    color: #4d57b8;
+    font-size: 10em;
+    animation-name: textanima;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+@keyframes textanima {
+    0% {font-size: 10em; transform: rotate(0deg)}
+    50% {font-size: 30em}
+    100% {font-size: 0; transform: rotate(360deg)}
+}
+
