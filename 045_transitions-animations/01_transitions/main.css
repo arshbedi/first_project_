@@ -28,5 +28,5 @@ div:hover{
 .trans:hover{
     transition-property: background-color;
     transition-duration: 500ms;
-    transition-timing-function: linear;
+    transition-timing-function: ease-in-out;
 }
