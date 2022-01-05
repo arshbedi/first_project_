@@ -1,0 +1,41 @@
+html, body, div, svg{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 250px;
+    width: 250px;
+    border: 10px solid midnightblue;
+}
+.icon{
+    height: 250px;
+    width: 250px;
+    fill: black;
+    /*animation properties*/
+    animation-name: myanima;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    /*stroke-width: 3px;*/
+    /*stroke: black;*/
+    /*border-radius: 4px;*/
+    /*padding: 0;*/
+    border: 10px solid mediumvioletred;
+    position: relative;
+    /*top: 50vh;*/
+    left: 0;
+}
+
+@keyframes myanima {
+    0% {fill: black; left: 0;}
+    50% {fill: darkred; }
+    100% {fill: #4d57b8; left: 80% }
+}
+
+body{
+    height: 100vh;
+}
