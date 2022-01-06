@@ -27,3 +27,7 @@ p{
     100% {font-size: 0; transform: rotate(360deg)}
 }
 
+h1{
+    font-size: 20rem;
+    color: deeppink;
+}
