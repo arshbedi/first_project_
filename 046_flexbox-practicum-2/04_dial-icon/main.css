@@ -1,0 +1,46 @@
+body,header, section, div, nav, h1,h2,button,a,svg, circle{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cantarell', sans-serif;
+    /*color: white;*/
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 3px grey;
+}
+
+svg{
+    height: 400px;
+    width: 400px;
+    /*border: 2px solid red;*/
+}
+
+circle{
+    stroke-width: 0.1px;
+    stroke-opacity: 0.5;
+    stroke: dimgrey;
+    fill: white;
+    /*offset x , offset y, blur radius */
+    filter: drop-shadow( 0 1px 1px rgba(0, 0, 0, .4));
+}
+
+path{
+    fill: dimgrey;
+    opacity: 0.5;
+}
