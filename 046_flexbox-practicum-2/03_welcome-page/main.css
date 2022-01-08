@@ -1,0 +1,48 @@
+body, header, section, article, footer div, nav, h1,h2,button,a, svg{
+    padding: 0;
+    /*border: 0;*/
+    margin: 10px;
+    box-sizing: border-box;
+    font-family: 'Cantarell', sans-serif;
+    /*border: 2px solid red;*/
+    color: lightslategrey;
+    /*stroke: lightslategrey;*/
+    fill: currentColor;
+}
+
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+button{
+    padding: 8px 24px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    background-color: #76a3f5;
+    color: white;
+}
+
+button:hover{
+    background-color: deeppink;
+    transition: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
