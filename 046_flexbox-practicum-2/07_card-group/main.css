@@ -1,0 +1,70 @@
+body, header, section, div, nav, h1,h2,button,a, p,svg{
+    padding: 0;
+    /*border: 0;*/
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: 'Cantarell', sans-serif;*/
+    color: rgba(130, 148, 185, 1);
+    /*border: 2px solid crimson;*/
+    font-size: 1.5rem;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    /*width: 90vw;*/
+    /*height: 70vh;*/
+    /*height: 50vh;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*border: 2px solid rgba(130, 148, 185, 0.4);*/
+    /*border-radius: 10px;*/
+}
+
+div.product{
+    width: 27vw;
+    /*width: 300px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(130, 148, 185, 0.4);
+    border-radius: 5px;
+}
+
+svg{
+    padding: 30px;
+    /*width: 60%;*/
+    /*height: 60%;*/
+    /*border: 2px solid green;*/
+    fill: rgba(130,148,185,0.8);
+;
+}
+
+p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(130, 148, 185, 0.4);
+}
+
+#product{
+
+}
+.price{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid blueviolet;*/
+    background-color: rgba(130, 148, 185, 0.2);
+}
+
